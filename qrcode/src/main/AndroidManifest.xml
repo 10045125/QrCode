@@ -1,0 +1,14 @@
+<!--
+  ~ Copyright (C) 2005-2017 UCWeb Inc. All rights reserved.
+  ~  Description :AndroidManifest.xml
+  ~
+  ~  Creation    : 2017-01-13
+  ~  Author      : zhonglian.wzl@alibaba-inc.com
+  -->
+
+<manifest package="com.vanda.qrcode">
+
+    <application >
+    </application>
+
+</manifest>

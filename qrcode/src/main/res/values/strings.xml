@@ -1,0 +1,11 @@
+<!--
+  ~ Copyright (C) 2005-2017 UCWeb Inc. All rights reserved.
+  ~  Description :strings.xml
+  ~
+  ~  Creation    : 2017-01-13
+  ~  Author      : zhonglian.wzl@alibaba-inc.com
+  -->
+
+<resources>
+    <string name="app_name">QrCode</string>
+</resources>

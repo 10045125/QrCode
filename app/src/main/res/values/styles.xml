@@ -1,0 +1,19 @@
+<!--
+  ~ Copyright (C) 2005-2017 UCWeb Inc. All rights reserved.
+  ~  Description :styles.xml
+  ~
+  ~  Creation    : 2017-01-13
+  ~  Author      : zhonglian.wzl@alibaba-inc.com
+  -->
+
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>

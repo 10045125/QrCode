@@ -1,0 +1,13 @@
+<!--
+  ~ Copyright (C) 2005-2017 UCWeb Inc. All rights reserved.
+  ~  Description :strings.xml
+  ~
+  ~  Creation    : 2017-01-13
+  ~  Author      : zhonglian.wzl@alibaba-inc.com
+  -->
+
+<resources>
+    <string name="app_name">QrCode</string>
+
+    <string name="qrcode_desc">将二维码/条形码放置框内，即开始扫描</string>
+</resources>

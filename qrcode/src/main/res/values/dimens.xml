@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2005-2016 UCWeb Inc. All rights reserved.
+  ~  Description :dimens.xml
+  ~
+  ~  Creation    : 2016-12-09
+  ~  Author      : zhonglian.wzl@alibaba-inc.com
+  -->
+
+<resources>
+    <dimen name="qrcode_area_width">216dp</dimen>
+    <dimen name="qrcode_area_height">216dp</dimen>
+    <dimen name="qrcode_area_corner_width">30dp</dimen>
+    <dimen name="qrcode_area_corner_height">2dp</dimen>
+    <dimen name="qrcode_area_scan_line_height">3dp</dimen>
+    <dimen name="qrcode_area_scan_text_size">12dp</dimen>
+    <dimen name="qrcode_area_scan_text_size_margin_top">20dp</dimen>
+</resources>

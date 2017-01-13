@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2005-2017 UCWeb Inc. All rights reserved.
+  ~  Description :AndroidManifest.xml
+  ~
+  ~  Creation    : 2017-01-13
+  ~  Author      : zhonglian.wzl@alibaba-inc.com
+  -->
+
+<manifest package="com.vanda_wzl.qrcode"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--允许程序读取外部存储，如SD卡上读文件-->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!--允许程序写入外部存储，如SD卡上写文件-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!--允许访问振动设备-->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!--允许使用PowerManager的 WakeLocks保持进程在休眠时从屏幕消失-->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!--扫描二维码需要相机权限-->
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <!-- 相机使用的一些 feature start-->
+    <uses-feature android:name="android.hardware.camera.any"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <!-- 相机使用的一些 feature end-->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

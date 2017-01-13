@@ -1,0 +1,38 @@
+/*
+ * Copyright (C) 2005-2017 UCWeb Inc. All rights reserved.
+ *  Description :build.gradle
+ *
+ *  Creation    : 2017-01-13
+ *  Author      : zhonglian.wzl@alibaba-inc.com
+ */
+
+/*
+ * Copyright (C) 2005-2017 UCWeb Inc. All rights reserved.
+ *  Description :build.gradle
+ *
+ *  Creation    : 2017-01-13
+ *  Author      : zhonglian.wzl@alibaba-inc.com
+ */
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.1"
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
